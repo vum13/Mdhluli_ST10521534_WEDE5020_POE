@@ -41,7 +41,7 @@ body::before {
     display: flex;
     align-items: center;
     gap: 1.25rem;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: oklch(0% 0 0 / 0.85);
     padding: 1rem 2rem;
     margin-bottom: 2.5rem;
     width: 100%;
