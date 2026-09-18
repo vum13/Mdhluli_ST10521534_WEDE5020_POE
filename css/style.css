@@ -31,7 +31,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    background: #16181d;
     z-index: -1;
 }
 
@@ -41,7 +41,7 @@ body::before {
     display: flex;
     align-items: center;
     gap: 1.25rem;
-    background-color: oklch(0% 0 0 / 0.85);
+    background-color: #16181d;
     padding: 1rem 2rem;
     margin-bottom: 2.5rem;
     width: 100%;
@@ -64,7 +64,7 @@ body::before {
 }
 
 .site-header a:hover {
-    color: #00bfff;
+    color: #d62839;
 }
 
 /* HEADINGS */
@@ -78,7 +78,7 @@ h1 {
 }
 
 h2 {
-    color: #00bfff;
+    color: #d62839;
     margin-top: 1.5rem;
     margin-bottom: 0.75rem;
     text-align: center;
@@ -98,11 +98,11 @@ p {
 /*  LINKS */
 
 a {
-    color: #00bfff;
+    color: #d62839;
 }
 
 a:hover {
-    color: #87cefa;
+    color: #d62839;
 }
 
 /*  IMAGES */
@@ -132,7 +132,7 @@ select {
 
 button,
 input[type="submit"] {
-    background-color: #00509e;
+    background-color: #d62839;
     color: white;
     padding: 0.75rem 1.25rem;
     border: none;
@@ -142,7 +142,7 @@ input[type="submit"] {
 
 button:hover,
 input[type="submit"]:hover {
-    background-color: #0077cc;
+    background-color: #d62839;
 }
 
 /* FOOTER */
@@ -150,7 +150,7 @@ input[type="submit"]:hover {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: #000000d9;
     margin-top: 2rem;
     color: white;
 }
