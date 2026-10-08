@@ -393,8 +393,6 @@ display the relevant mark.
 
 Project File Structure
 
-ST10521534_Mdhluli_WEDE5020_POE/
-│
 ├── index.html
 ├── about.html
 ├── services.html
@@ -417,55 +415,6 @@ ST10521534_Mdhluli_WEDE5020_POE/
 │   ├── hero image.jpg
 │   ├── psira.webp
 │   └── S.A.Q.C.C.png
-│
-└── project documentation/
-    ├── VUMO MDHLULIPOE2.docx
-    └── wede5020_Mdhluli_st10521534.docx
-
-How to Open the Website
-
-Extract the ZIP folder.
-
-Open the project folder in Visual Studio Code.
-
-Open index.html.
-
-Run the website using a local browser or a VS Code live-server
-extension.
-
-Use the navigation menu to move between:
-
-Home
-
-About
-
-Services
-
-Request a Quote
-
-Contact
-
-Project Documentation
-
-The website was developed using the information supplied in the CSL
-Technologies project proposal and design/wireframe documentation.
-
-The documentation describes CSL Technologies' mission as providing
-high-quality, cost-effective technological solutions and identifies fire
-detection, CCTV and security-related services as important parts of the
-website's purpose.
-
-The proposal also identifies future website goals such as:
-
-Generating customer leads
-
-Building credibility
-
-Educating visitors
-
-Supporting residential and commercial audiences
-
-Making the quotation process easier
 
 References
 
