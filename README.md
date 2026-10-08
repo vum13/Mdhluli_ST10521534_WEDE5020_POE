@@ -160,9 +160,9 @@ Create a foundation for a stronger future online presence.
 
 Technologies Used
 
-HTML5
+HTML
 
-HTML5 is used to create the structure and content of the website.
+HTML is used to create the structure and content of the website.
 
 The HTML pages include:
 
@@ -180,7 +180,7 @@ Forms
 
 Links
 
-CSS3
+CSS
 
 CSS is used for the visual design, layout and responsive behaviour of
 the website.
