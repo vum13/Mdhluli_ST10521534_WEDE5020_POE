@@ -418,12 +418,6 @@ Project File Structure
 
 References
 
-CSL Security Technologies. (2026). Home. Available at:
-https://cslsecurity.co.za/
-
-CSL Security Technologies. (2023). About Us. Available at:
-https://cslsecurity.co.za/about/
-
 Private Security Industry Regulatory Authority (PSiRA). Official
 Website. Available at: https://www.psira.co.za/
 
