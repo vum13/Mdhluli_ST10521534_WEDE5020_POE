@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="C:\Users\ladon\OneDrive\Documentos\ST10521534_Mdhluli_WEDE5020_POE\css\style.css">
+    <link rel="stylesheet" href="css\style.css">
+    <script src="js\validation.js" defer></script>
     <title>Document</title>
 </head>
 <body class="home-page">
@@ -17,18 +18,19 @@
     </header>
     <h1>Request a Quote</h1>
     <p>Please fill out the form below to request a quote for our fire and security solutions.</p>
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <br><br>
-        <label for="phone">Phone:</label>
-        <input type="tel" id="phone" name="phone" required>
-        <br><br>
+    <form id="myForm">
+
+        Name: <input type="text" id="name" name="name" ><br>
+        <small id="nameError"></small><br>
+
+        Email: <input type="text" id="email" name="email"><br>
+        <small id="emailError"></small><br>
+
+        Phone: <input type="text" id="phone" name="phone"><br>
+        <small id="phoneError"></small><br>
+
         <label for="service">Service of Interest:</label>
-        <select id="service" name="service" required>
+        <select id="service" name="service">
             <option value="">Select a service</option>
             <option value="fire-alarm">Fire Alarm Systems</option>
             <option value="cctv">CCTV Surveillance</option>
@@ -36,9 +38,12 @@
             <option value="security-consulting">Security Consulting</option>
         </select>
         <br><br>
+        <small id="serviceError"></small><br>
+
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="5" cols="40"></textarea>
         <br><br>
+        <small id="messageError"></small><br>
         <input type="submit" value="Submit">
     </form>
 </body>
