@@ -185,24 +185,25 @@ footer {
         background-attachment: scroll;
     }
 }
-/* style for error messages*/
-small{
+
+  /* Style all error messages */
+  small {
     color: red;
-    font-size:0.9em;
-    font-weight:bold;
-    margin-top:2px;
-    display:block;
-}
-
-/* style for success message */
-#message {
-    color: green;
-    margin-top: 10px;
+    font-size: 0.9em;
     font-weight: bold;
-    font-size: 1em;
-}
+    margin-top: 2px;
+    display: block;
+  }
 
-/* highlight invalid inputs*/
-input:invalid{
-    border:2px solid red;
-}
+  /* Optional: style the success message */
+  #message {
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  /* Optional: highlight invalid inputs */
+  input:invalid {
+    border: 2px solid red;
+  }
