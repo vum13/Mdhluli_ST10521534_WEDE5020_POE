@@ -3,23 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="C:\Users\ladon\OneDrive\Documentos\ST10521534_Mdhluli_WEDE5020_POE\css\style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css\style.css">
+    <script src="js\validation.js" defer></script>
+    <title>Contact Us - CSL Technologies</title>
 </head>
-<body>
+<body class="home-page">
     <header class="site-header">
         <img src="images\csl final logo.png" alt="csl logo" width="200" height="50" class="logo">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
         <a href="services.html">Services</a>
-        <a href="requestaqoaut.html">Request a Quote</a>
+        <a href="requestaQuote.html">Request a Quote</a>
     </header>
-    <h1>contact us </h1>
-    <p>Feel free to reach out to us with any questions or inquiries. You can contact us via phone, email, or by filling out the contact form below.</p>
-    <h2>Contact Information</h2>
-    <p>Phone: +27 79 601 7113</p>
-    <p>Email: info@csltechnologies.co.za</p>
-    
+    <h2><strong>Contact Info</strong></h2>
+
+   <section class="contact-info">
+    <P><strong>Head Office Address:</strong> 652 Wainwright street, Pretoria, Gauteng, South Africa</P>
+    <p><strong>National Direct Line:</strong> 012 885 2465</p>
+    <p><strong>General Inquiries:</strong>info@csltechnologies.co.za</p>
+    <p><strong>Sales & New Projects:</strong>sales@csltechnologies.co.za</p>
+    <p><strong>Technical Support & Maintenance:</strong>support@csltechnologies.co.za</p>
+    <p><strong>Business hours:</strong>Monday - Friday, 08:00 - 17:00</p>
+    <p><strong>24/7 Emergency Support Line:</strong>078 949 3225</p>
+    </section>
+
+    <form id="myForm">
+
+        Name: <input type="text" id="name" name="name" ><br>
+        <small id="nameError"></small><br>
+
+        Email: <input type="text" id="email" name="email"><br>
+        <small id="emailError"></small><br>
+
+        Phone: <input type="text" id="phone" name="phone"><br>
+        <small id="phoneError"></small><br>
+
+        <label for="service">Service of Interest:</label>
+        <select id="service" name="service">
+            <option value="">Select a service</option>
+            <option value="fire-alarm">Fire Alarm Systems</option>
+            <option value="cctv">CCTV Surveillance</option>
+            <option value="access-control">Access Control</option>
+            <option value="security-consulting">Security Consulting</option>
+        </select>
+        <br><br>
+        <small id="serviceError"></small><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" cols="40"></textarea>
+        <br><br>
+        <small id="messageError"></small><br>
+        <input type="submit" value="Submit">
+    </form>
+    <canvas id="burnCanvas"></canvas>
 </body>
 </html>

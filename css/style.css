@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /*  BODY */
 
 body {
@@ -206,4 +205,35 @@ footer {
   /* Optional: highlight invalid inputs */
   input:invalid {
     border: 2px solid red;
+  }
+
+  
+
+  /* cards for servise page*/
+  .card1 {
+    background-color: #000000;
+    border: 3px solid #d62839;
+    border-radius: 35px;
+    padding: 20px;
+    width: 320px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: #d62839;
+  }
+
+  body.burning {
+    filter:sepia(80%) brightness(0.4) contrast(150%);
+  }
+
+  #burnCanvas{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+    display: none;
   }
