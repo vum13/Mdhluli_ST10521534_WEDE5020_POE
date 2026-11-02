@@ -115,7 +115,7 @@ Mdhluli_ST10521534_WEDE5020_POE/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/Mdhluli_ST10521534_WEDE5020_POE.git
+   git clone [https://github.com/<your-username>/Mdhluli_ST10521534_WEDE5020_POE.git](https://github.com/vum13/Mdhluli_ST10521534_WEDE5020_POE/blob/main/README.md)
    ```
 2. Open the folder in Visual Studio Code.
 3. Open `index.html` in a browser, or right-click it and choose **Open with Live Server**.
