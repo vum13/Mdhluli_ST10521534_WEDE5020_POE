@@ -1,443 +1,176 @@
-# Mdhluli_ST10521534_WEDE5020_POE
-CSL TECHNOLOGIES website. helping the people at CSL reach their customer and stakeholders in a more efficient way 
-changed the csl logo from white to black and added a hero image to the files
-fixed spelling errors 
-added more images to the services page
-add css file that matches wireframe 
-changed the hero image and made it a background image that is on all pages 
-image fully represents what that company does
-CSL Technologies Website
+# CSL Technologies Website
 
-Project Overview
+A multi-page, responsive website for **CSL Technologies (Pty) Ltd**, a South African company that designs, installs and maintains integrated fire and security systems.
 
-This project is a website created for CSL Technologies (Pty) Ltd, a
-South African company focused on integrated fire and security solutions.
+Built as part of the WEDE5020 POE project.
 
-The website is designed to present CSL Technologies as a professional
-technology and security company that helps protect people, property and
-business operations through the installation and maintenance of:
+**Student:** Mdhluli (ST10521534)
 
-Fire alarm and fire detection systems
 
-CCTV surveillance systems
+## About the Project
 
-Access control systems
+The website presents CSL Technologies as a professional, security-focused company. It explains the company's services, shows examples of its work in a searchable gallery, and gives visitors a clear route to request a quote or contact the team. The aim is to help CSL reach customers and stakeholders more efficiently online.
 
-Integrated security solutions
+## Development Stages
 
-According to the project proposal, CSL Technologies (Pty) Ltd was
-formally established in 2014 and aims to provide high-quality,
-cost-effective technological solutions that meet the specific needs of
-its customers.
+The website was built in three stages, each one adding a layer on top of the last.
 
-The website is an academic WEDE5020 project and is intended to
-demonstrate how a professional website can be used to improve CSL
-Technologies' online presence, explain its services and make it easier
-for potential customers to request assistance or a quotation.
+### Part 1: HTML Structure and Logo
 
-Website Pages Included
+The first stage laid the foundation. Basic HTML pages were created for the home, about, services, contact and quote request content, with headings, paragraphs, lists, links and forms. The CSL logo was added to the header so that every page shares the same branding and navigation.
 
-1. Home Page
+### Part 2: CSS Styling, Company Colours and Product Imagery
 
-File: index.html
+The second stage gave the website its professional identity. A stylesheet (`css/style.css`) was added that follows the CSL Technologies colour scheme: dark charcoal, CSL red and white. A hero background image was applied across all pages, with a transparent black overlay to keep the text readable. Images of the company's products (fire alarm equipment, CCTV cameras and access control) were added to the services pages, and additional information about each service, the company's vision, mission and core values was written into the pages.
 
-The Home page introduces visitors to CSL Technologies and communicates
-the company's main focus on fire and security systems.
+### Part 3: JavaScript Interactivity
 
-It includes:
+The third stage made the website interactive. JavaScript was added to:
 
-CSL Technologies branding
+- validate the contact and quote request forms in the browser and show error messages beside each field
+- display a burn animation after a valid form submission
+- open and close the mobile navigation menu
+- show an interactive map of the head office
+- power the gallery, with search, category filters and a lightbox viewer
 
-Main navigation
+## Features
 
-Hero/background image
+- Responsive layout with a mobile navigation menu
+- Nine pages covering the company, its services, a gallery, contact details and quote requests
+- Interactive map of the head office, built with Leaflet and OpenStreetMap
+- Gallery with a lightbox (mouse, keyboard and touch), search, and category filters driven by a JavaScript array
+- Frequently asked questions on the Services page, built with native `<details>` elements
+- Client-side validation on the Contact and Request a Quote forms, with inline error messages
+- SEO basics: unique page titles, meta descriptions and keywords, and descriptive alt text
 
-Company introduction
+## Pages
 
-Fire and security value proposition
+| File | Purpose |
+|------|---------|
+| `index.html` | Home: company introduction and enterprise value proposition |
+| `about.html` | Vision, mission, core values and accreditations |
+| `services.html` | Overview of services, with an FAQ |
+| `fireAlarmSystems.html` | Fire protection and detection service page |
+| `cctvSystems.html` | CCTV surveillance service page |
+| `accessControl.html` | Access control service page |
+| `gallery.html` | Searchable, filterable gallery with a lightbox |
+| `contact.html` | Contact details, office map and contact form |
+| `requestaQuote.html` | Quote request form |
 
-Links to the main website sections
+## Technologies
 
-2. About Page
+- HTML5
+- CSS3 (Flexbox, Grid and media queries)
+- JavaScript (vanilla ES6)
+- [Leaflet 1.9.4](https://leafletjs.com/) for the office map
+- [OpenStreetMap](https://www.openstreetmap.org/) for map data
+- Visual Studio Code
 
-File: about.html
+## Colour Scheme
 
-The About page explains CSL Technologies':
+| Colour | Hex | Used for |
+|--------|-----|----------|
+| Dark charcoal | `#16181D` | Backgrounds, cards and navigation |
+| CSL red | `#D62839` | Headings, buttons, borders and accents |
+| White | `#FFFFFF` | Body text and contrast |
 
-Vision
+Transparent black overlays sit over the hero image to improve readability.
 
-Mission
+## Project Structure
 
-Commitment to customers
-
-Professional approach
-
-Industry-related accreditation references
-
-The page also includes PSiRA and S.A.Q.C.C. Fire branding as
-accreditation-related visual elements.
-
-3. Services Page
-
-File: services.html
-
-The Services page focuses on the core services represented in the
-current website:
-
-Fire Alarm Systems
-
-CCTV Surveillance
-
-Access Control
-
-Each service is supported by a relevant image to help visitors
-understand the type of technology CSL Technologies works with.
-
-4. Request a Quote Page
-
-File: requestaqoaut.html
-
-The Request a Quote page is designed to generate customer enquiries.
-
-Visitors can provide:
-
-Name
-
-Email address
-
-Phone number
-
-Service of interest
-
-Additional message or requirements
-
-The service selection includes fire alarm systems, CCTV surveillance,
-access control and security consulting.
-
-5. Contact Page
-
-File: contact.html
-
-The Contact page provides direct contact information for CSL
-Technologies and gives visitors a simple way to get in touch.
-
-CSL Technologies Target Audience
-
-The website is designed around the target audiences identified in the
-project proposal:
-
-Homeowners looking for fire detection and security protection.
-
-Hotels and hospitality businesses requiring CCTV, access control
-and fire safety solutions.
-
-Shopping malls and retail businesses requiring surveillance,
-controlled access and fire/smoke protection.
-
-Commercial businesses that need reliable security and fire
-protection systems.
-
-The website therefore focuses on clear information, professional
-presentation and easy access to the quotation/contact process.
-
-Website Objectives
-
-The CSL Technologies website was designed to:
-
-Generate qualified customer enquiries.
-
-Make it easier for customers to request a quotation.
-
-Build trust in CSL Technologies' services.
-
-Explain the company's main security and fire-related services.
-
-Present the company as professional and technology-focused.
-
-Provide a simple navigation structure across the website.
-
-Create a foundation for a stronger future online presence.
-
-Technologies Used
-
-HTML
-
-HTML is used to create the structure and content of the website.
-
-The HTML pages include:
-
-Navigation
-
-Headings
-
-Paragraphs
-
-Images
-
-Lists
-
-Forms
-
-Links
-
-CSS
-
-CSS is used for the visual design, layout and responsive behaviour of
-the website.
-
-The main stylesheet is:
-
-css/style.css
-
-CSS is used for:
-
-Colours
-
-Typography
-
-Navigation styling
-
-Buttons
-
-Forms
-
-Hero/background presentation
-
-Responsive layouts
-
-Spacing and alignment
-
-Hover effects
-
-Visual Studio Code
-
-Visual Studio Code was used as the development environment for creating
-and editing the website files.
-
-CSL Technologies Colour Scheme
-
-The colour palette was taken from the CSL Technologies
-wireframes/proposal documents and is also reflected in the website CSS.
-
-Dark charcoal: #16181D
-
-CSL red: #D62839
-
-White: #FFFFFF
-
-The dark charcoal provides the main professional/security-focused
-foundation, red is used for important headings, buttons and accents, and
-white is used for readable text and contrast.
-
-The website also uses transparent black overlays to improve text
-readability over the hero image.
-
-Website Design
-
-The design was created to communicate the nature of CSL Technologies'
-work.
-
-The visual direction uses:
-
-Dark security-focused backgrounds
-
-Red accent elements
-
-White text
-
-CCTV and security imagery
-
-Fire detection imagery
-
-Access control imagery
-
-A consistent navigation bar
-
-A strong hero image
-
-Simple forms for customer enquiries
-
-The intention is to give CSL Technologies a professional, modern and
-security-focused identity.
-
-Image and Graphic References
-
-The project contains images in the images folder. Online source
-research was performed for the imagery where an identifiable online
-reference could be found.
-
-Fire Animation
-
-File: animated-fire-rising-up-t2qdsyysz7z699nq.gif
-
-This animated fire graphic corresponds to the GIFDB page:
-
-GIFDB. Animated Fire Rising Up GIF. Available at:
-https://gifdb.com/gif/animated-fire-rising-up-t2qdsyysz7z699nq.html
-
-Fire Alarm System Image
-
-File: fireAlarmSystem.webp
-
-The fire alarm equipment image matches the type of product visual
-published by Rai Technologies:
-
-Rai Technologies. Fire Alarm System. Available at:
-https://raitech.co.tz/fire-alarm-system
-
-Access Control Image
-
-File: accessControl2.webp
-
-The access-control image is visually identifiable with the biometric
-door-access image published by Sandia National Laboratories. The page
-identifies the image as a Getty Images asset.
-
-Sandia National Laboratories. Requesting Access (Cleared or
-Uncleared) for a Visitor -- Security. Available at:
-https://www.sandia.gov/security/requesting-access-cleared-or-uncleared-for-a-visitor/
-
-CCTV Image
-
-File: cctv.jpg
-
-The image is a CCTV/security-camera visual with a blurred city/night
-background. A matching online visual reference was identified on iStock:
-
-iStock. CCTV with night city bokeh background, surveillance camera
-system for security. Available at:
-https://www.istockphoto.com/photo/cctv-with-night-city-bokeh-background-surveillance-camera-system-for-security-gm667379864-121762211
-
-The local project file does not contain source metadata, so this
-reference should be treated as an online visual reference rather than a
-guaranteed original-source identification.
-
-CCTV Camera/DVR Image
-
-File: CCTV2.webp
-
-An online CCTV camera/DVR product visual with a similar
-camera-and-recorder presentation was identified during source research:
-
-S2PHosT. Security Camera - Camera CCTV. Available at:
-https://s2phost.web.id/security-camera-cctv/
-
-The local file does not contain embedded source metadata, so the online
-page is recorded as a visual reference.
-
-PSiRA Logo
-
-File: psira.webp
-
-The PSiRA visual is associated with the Private Security Industry
-Regulatory Authority of South Africa.
-
-Private Security Industry Regulatory Authority (PSiRA). PSiRA
-Official Website. Available at: https://www.psira.co.za/
-
-Important: PSiRA states that its logos and intellectual property are
-protected. The logo in this academic project should not be treated as
-permission for commercial use.
-
-S.A.Q.C.C. Fire Logo
-
-File: S.A.Q.C.C.png
-
-The S.A.Q.C.C. Fire branding relates to the South African Qualification
-& Certification Committee for Fire.
-
-SAQCC Fire. Official Website. Available at: https://saqccfire.co.za/
-
-The SAQCC Fire website explains its role in registering and supporting
-competent people and companies working in the fire industry.
-
-CSL Black Logo
-
-File: csl black logo.png
-
-The CSL black logo was recreated using ChatGPT for this website
-project. It is not being presented as an externally sourced stock image.
-
-Hero Image
-
-File: hero image.jpg
-
-The hero image was created using ChatGPT for the CSL Technologies
-website project. It was designed specifically to represent the company's
-fire and security work.
-
-CSL Logo Image
-
-File: csl logo.jpg
-
-This image was supplied as part of the project materials and was used as
-an existing CSL Technologies branding reference.
-
-Access Control Graphic
-
-File: accessControl.webp
-
-This graphic is included as a supporting access-control visual. The
-local file does not contain reliable source metadata, so no exact
-external source is claimed for this asset.
-
-Accreditation and Third-Party Branding Note
-
-The PSiRA and SAQCC Fire graphics are third-party organisational marks.
-
-They are included in this project for academic/design demonstration
-purposes. Before using any third-party accreditation logo on a real
-commercial CSL Technologies website, the company should confirm that it
-has the appropriate registration, accreditation and permission to
-display the relevant mark.
-
-Project File Structure
-
+```
+Mdhluli_ST10521534_WEDE5020_POE/
 ├── index.html
 ├── about.html
 ├── services.html
-├── requestaqoaut.html
+├── fireAlarmSystems.html
+├── cctvSystems.html
+├── accessControl.html
+├── gallery.html
 ├── contact.html
+├── requestaQuote.html
 ├── README.md
-│
+├── CHANGELOG.md
 ├── css/
 │   └── style.css
-│
-├── images/
-│   ├── accessControl.webp
-│   ├── accessControl2.webp
-│   ├── animated-fire-rising-up-t2qdsyysz7z699nq.gif
-│   ├── cctv.jpg
-│   ├── CCTV2.webp
-│   ├── csl black logo.png
-│   ├── csl logo.jpg
-│   ├── fireAlarmSystem.webp
-│   ├── hero image.jpg
-│   ├── psira.webp
-│   └── S.A.Q.C.C.png
+├── js/
+│   ├── gallery.js
+│   ├── map.js
+│   ├── nav.js
+│   └── validation.js
+└── images/
+    ├── accessControl.webp
+    ├── accessControl2.webp
+    ├── animated-fire-rising-up-t2qdsyysz7z699nq.gif
+    ├── cctv.jpg
+    ├── CCTV2.webp
+    ├── csl-logo.png
+    ├── fireAlarmSystem.webp
+    ├── hero-image.jpg
+    ├── psira.webp
+    └── saqcc-fire.png
+```
 
-References
+## Running the Project Locally
 
-Private Security Industry Regulatory Authority (PSiRA). Official
-Website. Available at: https://www.psira.co.za/
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/Mdhluli_ST10521534_WEDE5020_POE.git
+   ```
+2. Open the folder in Visual Studio Code.
+3. Open `index.html` in a browser, or right-click it and choose **Open with Live Server**.
 
-SAQCC Fire. Official Website. Available at:
-https://saqccfire.co.za/
+The map needs an internet connection to load Leaflet and map tiles. The rest of the site works offline.
 
-GIFDB. Animated Fire Rising Up GIF. Available at:
-https://gifdb.com/gif/animated-fire-rising-up-t2qdsyysz7z699nq.html
+## Forms
 
-Rai Technologies. Fire Alarm System. Available at:
-https://raitech.co.tz/fire-alarm-system
+The Contact and Request a Quote forms check each field in the browser before submission: name, email address, South African phone number, service of interest and message. Error messages appear beside the field that needs attention.
 
-Sandia National Laboratories. Requesting Access (Cleared or
-Uncleared) for a Visitor -- Security. Available at:
-https://www.sandia.gov/security/requesting-access-cleared-or-uncleared-for-a-visitor/
+**Known limitation:** the forms do not send emails yet. They need to be connected to a form service such as Formspree, Web3Forms or Netlify Forms.
 
-iStock. CCTV with night city bokeh background, surveillance camera
-system for security. Available at:
-https://www.istockphoto.com/photo/cctv-with-night-city-bokeh-background-surveillance-camera-system-for-security-gm667379864-121762211
+## Accessibility and SEO
 
-S2PHosT. Security Camera - Camera CCTV. Available at:
-https://s2phost.web.id/security-camera-cctv/
+- Every image has descriptive alt text.
+- The lightbox closes with the Esc key and moves between images with the arrow keys.
+- Each page has a unique title and meta description.
+
+## Accreditation Note
+
+The PSiRA and SAQCC Fire logos are third-party marks. They appear in this project for academic and design purposes only. Before using them on a live commercial site, CSL Technologies must confirm that it holds the relevant registration and permission to display them.
+
+## Known Limitations and To Do
+
+- [ ] Connect the Contact and Request a Quote forms to a submission service
+- [ ] Replace the gallery's reference images with photos of completed CSL projects, with client permission
+- [ ] Confirm the head office coordinates in `js/map.js`
+- [ ] Confirm the year the company was established, and make the About page match the proposal
+- [ ] Confirm that the FAQ answers match CSL's actual services
+
+## Changelog
+
+The development history is recorded in [CHANGELOG.md](CHANGELOG.md).
+
+## Image Credits
+
+The hero image and the CSL black logo were created with ChatGPT for this project. The CSL logo image was supplied as part of the project materials.
+
+## References
+
+Private Security Industry Regulatory Authority (PSiRA). Official Website. Available at: https://www.psira.co.za/
+
+SAQCC Fire. Official Website. Available at: https://saqccfire.co.za/
+
+GIFDB. Animated Fire Rising Up GIF. Available at: https://gifdb.com/gif/animated-fire-rising-up-t2qdsyysz7z699nq.html
+
+Rai Technologies. Fire Alarm System. Available at: https://raitech.co.tz/fire-alarm-system
+
+Sandia National Laboratories. Requesting Access (Cleared or Uncleared) for a Visitor -- Security. Available at: https://www.sandia.gov/security/requesting-access-cleared-or-uncleared-for-a-visitor/
+
+iStock. CCTV with night city bokeh background, surveillance camera system for security. Available at: https://www.istockphoto.com/photo/cctv-with-night-city-bokeh-background-surveillance-camera-system-for-security-gm667379864-121762211
+
+S2PHosT. Security Camera - Camera CCTV. Available at: https://s2phost.web.id/security-camera-cctv/
+
+Leaflet. Version 1.9.4. Available at: https://leafletjs.com/
+
+OpenStreetMap contributors. Copyright and Licence. Available at: https://www.openstreetmap.org/copyright
 
