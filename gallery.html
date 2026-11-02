@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gallery | CSL Technologies</title>
+    <script src="js/nav.js" defer></script>
+    <script src="js/gallery.js" defer></script>
+    <meta name="description" content="Browse examples of the fire alarm, CCTV and access control systems that CSL Technologies designs and installs. Search, filter and view each image up close.">
+    <meta name="keywords" content="CSL Technologies gallery, fire alarm systems, CCTV installations, access control, security systems South Africa">
+</head>
+<body>
+    <header class="site-header">
+        <img src="images\csl final logo.png" alt="CSL Technologies logo" width="200" height="50" class="logo">
+        <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">&#9776;</button>
+        <nav id="site-nav" class="site-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="requestaQuote.html">Request a Quote</a>
+        </nav>
+    </header>
+
+    <main class="page-content">
+        <h1>Gallery</h1>
+        <p>Examples of the fire, CCTV and access control systems we design and install.</p>
+
+
+        <div class="gallery-controls">
+            <label for="gallery-search">Search the gallery</label>
+            <input type="search" id="gallery-search" placeholder="Try 'CCTV' or 'biometric'">
+
+            <div class="filter-buttons" role="group" aria-label="Filter by service">
+                <button type="button" class="filter-btn is-active" data-filter="all" aria-pressed="true">All</button>
+                <button type="button" class="filter-btn" data-filter="fire" aria-pressed="false">Fire Alarm</button>
+                <button type="button" class="filter-btn" data-filter="cctv" aria-pressed="false">CCTV</button>
+                <button type="button" class="filter-btn" data-filter="access" aria-pressed="false">Access Control</button>
+            </div>
+
+            <p id="gallery-status" aria-live="polite"></p>
+        </div>
+
+        <div id="gallery-grid" class="gallery-grid"></div>
+    </main>
+
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+        <button type="button" class="lightbox-close" aria-label="Close image">&times;</button>
+        <button type="button" class="lightbox-prev" aria-label="Previous image">&#10094;</button>
+        <figure>
+            <img id="lightbox-img" alt="">
+            <figcaption id="lightbox-caption"></figcaption>
+        </figure>
+        <button type="button" class="lightbox-next" aria-label="Next image">&#10095;</button>
+    </div>
+
+    <script src="js/nav.js" defer></script>
+    <script src="js/gallery.js" defer></script>
+</body>
+</html>

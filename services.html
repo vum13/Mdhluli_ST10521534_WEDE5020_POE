@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/nav.js" defer></script>
     <title>Servicess - CSL Technologies</title>
 </head>
 <body>
     <header class="site-header">
-        <img src="images\csl final logo.png" alt="csl logo" width="200" height="50" class="logo">
+    <img src="images\csl final logo.png" alt="CSL Technologies logo" width="200" height="50" class="logo">
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">&#9776;</button>
+    <nav id="site-nav" class="site-nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
         <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
         <a href="requestaQuote.html">Request a Quote</a>
-    </header>
+    </nav>
+</header>
     <h2>Our Services</h2>
     <h1>We offer a wide range of fire and security solutions tailored to meet the unique needs of our clients. Our services include:</h1>
 
@@ -42,5 +47,30 @@
         </a>
 
     </div>
+
+    <section class="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <details>
+        <summary>Do you offer maintenance agreements?</summary>
+        <p>Yes. We offer service level agreements (SLAs) covering routine inspections, preventive maintenance and emergency repairs.</p>
+    </details>
+
+    <details>
+        <summary>Do you work outside Pretoria?</summary>
+        <p>Yes. We manage multi-site rollouts and service clients across South Africa.</p>
+    </details>
+
+    <details>
+        <summary>Which systems do you install?</summary>
+        <p>We install and maintain fire alarm and detection systems, IP CCTV surveillance, and access control systems, and we can integrate them into one management platform.</p>
+    </details>
+
+    <details>
+        <summary>How do I request a quote?</summary>
+        <p>Use the <a href="requestaQuote.html">Request a Quote</a> form, or call our national line on 012 885 2465.</p>
+    </details>
+</section>
+
 </body>
 </html>
